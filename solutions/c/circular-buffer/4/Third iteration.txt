@@ -1,0 +1,2 @@
+Third iteration: renamed fields and variables, simplified some constructs.
+I left the asserts() in.
