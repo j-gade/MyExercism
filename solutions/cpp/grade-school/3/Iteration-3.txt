@@ -1,0 +1,17 @@
+Iteration 2:
+I learned a lot of things from other user implementations and I
+adjusted/rewrote this iteration using those ideas.
+
+1. I used "using" typedefs for my own type aliases, assuring that they could be
+	changed in future iterations. I saw this in a couple of community
+	submissions, also typedefs.
+2. I learned more about std::maps and std::vectors. Although I didn't use the fact that a
+	find method on a std::map would return a pointer to a std::pair of the key::value of the map, which
+	was confusing in some submissions, I learned to check for other conditions.
+	There doesn't seem to be a lot of direct tutorials on this.
+3. I did learn that a std::map iterator returned by find is a pointer to a std::pair of <key, value>.
+	The documentation isn't very clear on that. Or that a map holds std::pair values.
+4. I started learning the value/use-cases of anonymous namespaces. I will need
+	to practice more.
+
+Edit: Changed auto & to auto const & in line 14 of grade_school.cpp
